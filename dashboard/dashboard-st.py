@@ -7,13 +7,13 @@ import matplotlib.pyplot as plt
 st.set_option('client.showErrorDetails', False)
 
 #Import data
-df_all = pd.read_csv("df_all.csv")
-q1_top = pd.read_csv("q1_top.csv")
-q1_down = pd.read_csv("q1_down.csv")
-q2_a = pd.read_csv("q2_a.csv")
-q2_b = pd.read_csv("q2_b.csv")
-q3_sorted = pd.read_csv("q3_sorted.csv")
-q4_sorted = pd.read_csv("q4_sorted.csv")
+df_all = pd.read_csv("https://raw.githubusercontent.com/mzakibhr/proyek-analisis-data/refs/heads/master/dashboard/df_all.csv")
+q1_top = pd.read_csv("https://raw.githubusercontent.com/mzakibhr/proyek-analisis-data/refs/heads/master/dashboard/q1_top.csv")
+q1_down = pd.read_csv("https://raw.githubusercontent.com/mzakibhr/proyek-analisis-data/refs/heads/master/dashboard/q1_down.csv")
+q2_a = pd.read_csv("https://raw.githubusercontent.com/mzakibhr/proyek-analisis-data/refs/heads/master/dashboard/q2_a.csv")
+q2_b = pd.read_csv("https://raw.githubusercontent.com/mzakibhr/proyek-analisis-data/refs/heads/master/dashboard/q2_b.csv")
+q3_sorted = pd.read_csv("https://raw.githubusercontent.com/mzakibhr/proyek-analisis-data/refs/heads/master/dashboard/q3_sorted.csv")
+q4_sorted = pd.read_csv("https://raw.githubusercontent.com/mzakibhr/proyek-analisis-data/refs/heads/master/dashboard/q4_sorted.csv")
 
 st.write("""
 # E-Commerce Dashboard Analysis
