@@ -7,7 +7,6 @@ import matplotlib.pyplot as plt
 st.set_option('client.showErrorDetails', False)
 
 #Import data
-df_all = pd.read_csv("df_all.csv")
 q1_top = pd.read_csv("q1_top.csv")
 q1_down = pd.read_csv("q1_down.csv")
 q2_a = pd.read_csv("q2_a.csv")
