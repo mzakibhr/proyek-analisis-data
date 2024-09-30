@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 st.set_option('client.showErrorDetails', False)
 
 #Import data
+df_all = pd.read_csv("df_all.csv")
 q1_top = pd.read_csv("q1_top.csv")
 q1_down = pd.read_csv("q1_down.csv")
 q2_a = pd.read_csv("q2_a.csv")
@@ -50,7 +51,6 @@ st.write('---')
 
 # Question 2
 st.header('Number of Customer for each city')
-q2_a = df_all.groupby(by='customer_city').customer_id.nunique().sort_values(ascending=False).head(10).reset_index()
 
 # Membuat barplot horizontal
 plt.figure(figsize=(10, 6))
